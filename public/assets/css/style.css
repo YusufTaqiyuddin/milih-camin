@@ -1,0 +1,159 @@
+body {
+  background: linear-gradient(
+    180deg,
+    #3667f5 0%,
+    rgba(138, 128, 252, 0.517208) 29.53%,
+    rgba(177, 151, 250, 0.220184) 58.7%,
+    rgba(191, 159, 250, 0.114679) 99.99%,
+    rgba(206, 168, 249, 0) 100%
+  );
+  
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.login{
+  overflow:hidden;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.bola {
+  z-index: -1;
+  content: "";
+  display: block;
+  position: fixed;
+  border-radius: 50%;
+}
+
+.bola-1 {
+  width: 1052px;
+  height: 1052px;
+  left: -230px; /* 230 */
+  top: 300px; /* 430 */
+  background: radial-gradient(
+    76.75% 76.75% at 70% 23.25%,
+    #bceeeb 0%,
+    #e1eebc 0.01%,
+    #bcd9ee 100%
+  );
+}
+
+.bola-2 {
+  width: 280px;
+  height: 280px;
+  left: 1280px;
+  top: 350px;
+  background: radial-gradient(
+    76.75% 76.75% at 70% 23.25%,
+    #ffd3f5 0%,
+    #fff8f4 100%
+  );
+}
+
+.bola-3 {
+  width: 280px;
+  height: 280px;
+  left: 550px;
+  top: 280px;
+  background: radial-gradient(
+    76.75% 76.75% at 70% 23.25%,
+    #ffd3f5 0%,
+    #fff8f4 100%
+  );
+  display: inline;
+}
+
+.auth {
+  padding: 10px;
+  margin-top: 2.5rem;
+  position: relative;
+  min-height: 200px;
+  /* width: 200px; */
+}
+
+.auth .card {
+  box-shadow: -8px 12px 18px 0 rgb(25, 42, 70, 0.13);
+  margin-bottom: 2.2rem;
+  border-radius: 2px;
+  /* padding: 5px; */
+}
+
+.auth h3 {
+  text-align: left;
+  font-weight: 600;
+}
+
+.mb-5 {
+  margin-top: 30px;
+}
+
+.textPanitia {
+  text-align: center;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 61px;
+  height: 61px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+  /* float: left; */
+  /* position: fixed; */
+}
+
+.navbar-brand-camin {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 171px;
+  height: 171px;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+
+.garis {
+  border-bottom: 2px solid black;
+}
+
+.text-pilihan {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+}
+
+.text-pilihan-2 {
+  display: block;
+  text-align: center;
+  font-size: 50px;
+  background-color: transparent;
+  text-decoration: none;
+  color: #3355D1;
+}
+
+.text-pilihan:hover, .text-pilihan-2:hover {
+  color:black;
+}
+
+.custom-table {
+  border-color: transparent;
+}
+
+.absolute {
+  position: absolute;
+  bottom: 10px;
+}
